@@ -14,7 +14,7 @@
 
 ```sh
 # bash
-ionic info				# information from the ionic
+ionic info				# ionic module's information
 
 Cordova CLI: 5.4.1
 Gulp version:  CLI version 3.9.0
