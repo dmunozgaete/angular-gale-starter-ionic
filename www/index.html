@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link rel="manifest" href="manifest.json">
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="lib/ionic/css/ionic.css">
+    <!-- endinject -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="views/boot/css/boot.css">
+    <link rel="stylesheet" href="views/firstRun/css/firstRun.css">
+    <link rel="stylesheet" href="views/home/css/home.css">
+    <link rel="stylesheet" href="views/layouts/css/layouts.css">
+    <!-- endinject -->
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    <!-- bower:js -->
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-animate/angular-animate.js"></script>
+    <script src="lib/angular-sanitize/angular-sanitize.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+    <script src="lib/lodash/lodash.js"></script>
+    <script src="lib/ionic/js/ionic.js"></script>
+    <script src="lib/ionic/js/ionic-angular.js"></script>
+    <script src="lib/angular-gale/dist/angular-gale.js"></script>
+    <!-- endinject -->
+    <!-- inject:js -->
+    <script src="bundles/app/app.js"></script>
+    <script src="views/boot/index.js"></script>
+    <script src="views/error/404.js"></script>
+    <script src="views/home/index.js"></script>
+    <script src="views/layouts/default.js"></script>
+    <script src="views/layouts/exception.js"></script>
+    <script src="views/firstRun/configure/index.js"></script>
+    <script src="views/firstRun/configure/directives/welcome.js"></script>
+    <!-- endinject -->
+    <script src="config/config.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body md-theme="default">
+    <!-- ANGULAR VIEW -->
+    <div ui-view="" ng-cloak="">
+    </div>
+</body>
+
+</html>

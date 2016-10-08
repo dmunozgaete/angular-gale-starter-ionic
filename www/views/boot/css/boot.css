@@ -1,0 +1,16 @@
+/* 
+    SASS Theme Variables 
+*/
+[md-theme='default'] {
+    /*------------------------- 
+	VIEW:   Boot Page
+	ROUTE:  /boot
+	-------------------------*/ }
+  [md-theme='default'] ion-view.boot flex-loading {
+    padding: 0px 16px; }
+    [md-theme='default'] ion-view.boot flex-loading div.message {
+      font-size: 1.4em; }
+    [md-theme='default'] ion-view.boot flex-loading div.legend {
+      font-size: 1em; }
+
+/*# sourceMappingURL=boot.css.map */

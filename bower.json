@@ -1,0 +1,9 @@
+{
+  "name": "ionic-starter",
+  "private": "true",
+  "dependencies": {
+    "ionic": "driftyco/ionic-bower#1.3.0",
+    "ngCordova": "^0.1.27-alpha",
+    "angular-gale": "dmunozgaete/angular-gale#master"
+  }
+}

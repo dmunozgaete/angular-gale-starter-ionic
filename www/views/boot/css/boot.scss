@@ -1,0 +1,18 @@
+@import "../../../bundles/themes/default";
+[md-theme='default'] {
+    /*------------------------- 
+	VIEW:   Boot Page
+	ROUTE:  /boot
+	-------------------------*/
+    ion-view.boot {
+        flex-loading {
+            padding: 0px 16px;
+            div.message {
+                font-size: 1.4em;
+            }
+            div.legend {
+                font-size: 1em;
+            }
+        }
+    }
+}

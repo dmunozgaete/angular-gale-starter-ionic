@@ -1,0 +1,74 @@
+@import "../../../bundles/app/css/_variables";
+@import "../../../bundles/app/css/_flexbox";
+[md-theme='sodimac-dark'] {
+    /*------------------------- 
+    VIEW:   Layout Styles
+    -------------------------*/
+    ion-side-menus.layouts {
+        /*------------------------- 
+        VIEW:   Public Style
+        ROUTE:  /app
+        -------------------------*/
+        &.public {
+            ion-side-menu-content {
+                box-shadow: -1px 0px 63px rgba(0, 0, 0, 0.7), 1px 0px 2px rgba(0, 0, 0, 0.7);
+            }
+            /*------------------------- 
+            SIDE BAR MENU
+            -------------------------*/
+            ion-side-menu {
+                /*------------------------- 
+                CONTENT
+                -------------------------*/
+                background-color: $primary_color;
+                ion-content {
+                    ion-list {
+                        ion-item {
+                            background-color: transparent;
+                            color: $text_color;
+                            border-bottom: 1px solid #444;
+                            border-top: 1px solid #444;
+                            > i {
+                                color: #FCDD32;
+                            }
+                            &.active,
+                            &.activated {
+                                background-color: $primary_Hue900_color;
+                            }
+                            span {
+                                padding-left: 0.5em;
+                                font-size: 1.2em;
+                            }
+                            &.active {
+                                border-right: 3px solid $accent_color;
+                                padding: 18px;
+                                a.item-content {
+                                    background-color: $primary_Hue900_color;
+                                    padding-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+                /*------------------------- 
+                FOOTER
+                -------------------------*/
+                ion-footer-bar {
+                    height: 4em !important;
+                    @include ribbon();
+                    background-color: $accent_color;
+                    > div {
+                        @include flexbox();
+                        @include align-items(center);
+                        @include justify-content(center);
+                        width: 100%;
+                        height: 100%;
+                        >img {
+                            height: 45%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+@import "../../../bundles/app/css/_flexbox";
+[md-theme='default'] {
+
+    $primary_color: #3F51B5;
+
+    @mixin layout-fill {
+        display: block;
+        min-height: 100%;
+        width: 100%;
+    }
+    /*------------------------- 
+    VIEW:   First Run View's
+    ROUTE:  /app/firstRun/configure
+    -------------------------*/
+    .firstRun {
+        &.configure {
+            background-color: $primary_color;
+            color: #FFF;
+            .actions {
+                text-align: left;
+                > button {
+                    padding: 6px !important;
+                    margin-right: 8px;
+                }
+                > a {
+                    color: rgb(255, 255, 255);
+                    font-size: 1.1em;
+                    padding-left: 4px;
+                    padding: 8px;
+                    padding-right: 12px;
+                    padding-left: 8px;
+                }
+            }
+            welcome {
+                @include layout-fill();
+                background-image: url(images/welcome.png);
+            }
+            /*
+              ION SLIDES CUSTOMIZATION
+            */
+            ion-slides {
+                .swiper-slide {
+                    > * {
+                        background-size: 100% auto;
+                        background-position: center 35%;
+                        background-repeat: no-repeat;
+                    }
+                    content {
+                        display: block;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        padding: 1em;
+                        bottom: 5em;
+                        height: 11em;
+                        > .title {
+                            font-size: 1.8em;
+                            padding-bottom: 1em;
+                        }
+                        > .description {
+                            text-align: justify
+                        }
+                    }
+                    content-actions {
+                        display: block;
+                        text-align: center;
+                        position: absolute;
+                        bottom: 3em;
+                        left: 0px;
+                        right: 0px;
+                        > button {
+                            padding: 6px 25px;
+                            border-radius: 4px;
+                            font-size: 1.2em;
+                            border: 1px solid rgb(226, 226, 226);
+                            background: none;
+                            color: rgb(255, 255, 255);
+                        }
+                    }
+                }
+                .swiper-pagination-bullet {
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}

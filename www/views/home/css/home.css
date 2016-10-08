@@ -1,0 +1,183 @@
+/* 
+    SASS Theme Variables 
+*/
+/* 
+    SASS Mixins
+*/
+[md-theme='sodimac-dark'] {
+  /*------------------------- 
+  VIEW:   Home Page
+  ROUTE:  /app/home
+  -------------------------*/ }
+  [md-theme='sodimac-dark'] ion-view.home code-version {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    opacity: 0.3; }
+  [md-theme='sodimac-dark'] ion-view.home ion-header-bar > button.button-clear > span.badge {
+    margin-left: -8px;
+    margin-top: 14px; }
+  [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.container {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 4px; }
+    [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.container div.sku label.item-input {
+      background: #FFF;
+      border: none;
+      text-align: center;
+      border-radius: 3px; }
+      [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.container div.sku label.item-input > {
+        font-size: 1.4em;
+        padding-right: 8px; }
+      [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.container div.sku label.item-input > input {
+        font-size: 2.1em;
+        color: #367AC1;
+        text-align: center;
+        padding-right: 32px;
+        padding-top: 0px;
+        padding-bottom: 0px; }
+        [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.container div.sku label.item-input > input::-webkit-input-placeholder {
+          color: #808080;
+          text-transform: uppercase;
+          font-size: 1em;
+          line-height: 24px;
+          padding-top: 2px; }
+        [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.container div.sku label.item-input > input:-moz-placeholder {
+          /* Firefox 18- */
+          color: #808080; }
+        [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.container div.sku label.item-input > input::-moz-placeholder {
+          /* Firefox 19+ */
+          color: #808080; }
+        [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.container div.sku label.item-input > input:-ms-input-placeholder {
+          color: #808080; }
+    [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.container div.actions {
+      padding: 0px; }
+      [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.container div.actions > div.col {
+        padding: 0px; }
+        [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.container div.actions > div.col button {
+          color: #367AC1;
+          padding: 4px 0px;
+          background-color: #FFF;
+          width: 97%; }
+          [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.container div.actions > div.col button::before {
+            font-size: 1.3em !important; }
+        [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.container div.actions > div.col:last-child button {
+          float: right; }
+  [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.store {
+    border-bottom: 1px solid #565656;
+    background: #565656;
+    padding: 1px;
+    margin-top: 4px; }
+    [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.store > div.col {
+      padding: 0px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      -webkit-align-items: flex-start;
+      -moz-align-items: flex-start;
+      align-items: flex-start;
+      -webkit-box-direction: normal;
+      -webkit-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.store > div.col:first-child {
+        padding: 8px 10px 0px 16px; }
+        [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.store > div.col:first-child > span:first-child {
+          font-size: 1.2em; }
+        [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.store > div.col:first-child > span:last-child {
+          font-size: 0.8em;
+          opacity: 0.7;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          width: 100%;
+          overflow: hidden; }
+      [md-theme='sodimac-dark'] ion-view.home ion-header-bar.bar-custom-header div.store > div.col:last-child button {
+        text-align: right;
+        padding-right: 16px; }
+  [md-theme='sodimac-dark'] ion-view.home ion-content {
+    /* PRODUCT SHEET */ }
+    [md-theme='sodimac-dark'] ion-view.home ion-content.has-subheader {
+      top: 217px !important; }
+    [md-theme='sodimac-dark'] ion-view.home ion-content empty-data {
+      padding: 0px 24px; }
+    [md-theme='sodimac-dark'] ion-view.home ion-content product-info {
+      display: block;
+      height: 100%;
+      width: 100%;
+      padding: 8px 16px;
+      /* ACTIONS */ }
+      [md-theme='sodimac-dark'] ion-view.home ion-content product-info > div.title {
+        font-size: 1.2em;
+        line-height: 1em;
+        max-height: 2em;
+        overflow: hidden; }
+      [md-theme='sodimac-dark'] ion-view.home ion-content product-info > div.sku {
+        opacity: 0.7;
+        text-align: left; }
+      [md-theme='sodimac-dark'] ion-view.home ion-content product-info > div.slides {
+        height: 6em;
+        margin-top: 1em;
+        text-align: center; }
+        [md-theme='sodimac-dark'] ion-view.home ion-content product-info > div.slides img {
+          height: 100%; }
+      [md-theme='sodimac-dark'] ion-view.home ion-content product-info > div.price {
+        font-size: 1.6em;
+        padding-top: 8px;
+        text-align: right;
+        color: #367AC1; }
+      [md-theme='sodimac-dark'] ion-view.home ion-content product-info > div.actions {
+        padding: 0px;
+        margin-top: 1em; }
+        [md-theme='sodimac-dark'] ion-view.home ion-content product-info > div.actions > div.col {
+          /* CANTIDAD */
+          /* AGREGAR A LA LISTA */ }
+          [md-theme='sodimac-dark'] ion-view.home ion-content product-info > div.actions > div.col > div.legend {
+            font-size: 0.7em;
+            opacity: 0.7;
+            margin-bottom: 4px; }
+          [md-theme='sodimac-dark'] ion-view.home ion-content product-info > div.actions > div.col:first-child > div.quantity {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -moz-align-items: center;
+            align-items: center; }
+            [md-theme='sodimac-dark'] ion-view.home ion-content product-info > div.actions > div.col:first-child > div.quantity > button {
+              border: 2px solid #565656;
+              margin: 0px;
+              font-size: 1.5em;
+              color: #565656;
+              min-height: 44px;
+              font-weight: bold;
+              width: 1.5em;
+              height: 1.5em;
+              min-height: 1.5em; }
+            [md-theme='sodimac-dark'] ion-view.home ion-content product-info > div.actions > div.col:first-child > div.quantity > input {
+              font-size: 1.5em;
+              width: 2em;
+              text-align: center;
+              border: 2px solid #565656;
+              padding: 0px;
+              min-height: 44px;
+              border-radius: 6px;
+              margin: 0px 4px; }
+          [md-theme='sodimac-dark'] ion-view.home ion-content product-info > div.actions > div.col:last-child > button {
+            margin: 0px;
+            border: 2px solid #dd0021;
+            color: #dd0021;
+            padding: 0px;
+            min-height: 35px;
+            height: 40px;
+            line-height: 1em; }
+
+/*# sourceMappingURL=home.css.map */

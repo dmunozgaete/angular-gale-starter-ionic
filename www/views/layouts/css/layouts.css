@@ -1,0 +1,78 @@
+/* 
+    SASS Theme Variables 
+*/
+/* 
+    SASS Mixins
+*/
+[md-theme='sodimac-dark'] {
+  /*------------------------- 
+  VIEW:   Layout Styles
+  -------------------------*/ }
+  [md-theme='sodimac-dark'] ion-side-menus.layouts {
+    /*------------------------- 
+    VIEW:   Public Style
+    ROUTE:  /app
+    -------------------------*/ }
+    [md-theme='sodimac-dark'] ion-side-menus.layouts.public {
+      /*------------------------- 
+      SIDE BAR MENU
+      -------------------------*/ }
+      [md-theme='sodimac-dark'] ion-side-menus.layouts.public ion-side-menu-content {
+        box-shadow: -1px 0px 63px rgba(0, 0, 0, 0.7), 1px 0px 2px rgba(0, 0, 0, 0.7); }
+      [md-theme='sodimac-dark'] ion-side-menus.layouts.public ion-side-menu {
+        /*------------------------- 
+        CONTENT
+        -------------------------*/
+        background-color: #222222;
+        /*------------------------- 
+        FOOTER
+        -------------------------*/ }
+        [md-theme='sodimac-dark'] ion-side-menus.layouts.public ion-side-menu ion-content ion-list ion-item {
+          background-color: transparent;
+          color: #FFF;
+          border-bottom: 1px solid #444;
+          border-top: 1px solid #444; }
+          [md-theme='sodimac-dark'] ion-side-menus.layouts.public ion-side-menu ion-content ion-list ion-item > i {
+            color: #FCDD32; }
+          [md-theme='sodimac-dark'] ion-side-menus.layouts.public ion-side-menu ion-content ion-list ion-item.active, [md-theme='sodimac-dark'] ion-side-menus.layouts.public ion-side-menu ion-content ion-list ion-item.activated {
+            background-color: #151515; }
+          [md-theme='sodimac-dark'] ion-side-menus.layouts.public ion-side-menu ion-content ion-list ion-item span {
+            padding-left: 0.5em;
+            font-size: 1.2em; }
+          [md-theme='sodimac-dark'] ion-side-menus.layouts.public ion-side-menu ion-content ion-list ion-item.active {
+            border-right: 3px solid #fcdd32;
+            padding: 18px; }
+            [md-theme='sodimac-dark'] ion-side-menus.layouts.public ion-side-menu ion-content ion-list ion-item.active a.item-content {
+              background-color: #151515;
+              padding-left: 10px; }
+        [md-theme='sodimac-dark'] ion-side-menus.layouts.public ion-side-menu ion-footer-bar {
+          height: 4em !important;
+          background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfVJREFUeNrk2ktLw0AUBeBpFCkiCIIi2IUSUXyAIlpj03/m3l/WPESpCoIgBgq6EAWhLopoNd6BWQkKJnPgDDNwNkIvfvTmZiZNoyxL9dsKw1BZWPeSlrK/jiUnP/9YFMWfHwoUdrVAWL3yKh9CgyNQ3TEruAuqeyUZMYKPmNoZDW5KdkG1E0bwgWQKVDtjBKPa+VEyYARHbO2MBseguikjeFWywDahkWBUO79J+ozgDqhu36C9Aed1CyDAM5JtxoGFAh9KJhhvSSgw6nY0MJsOOjBqQmc2itgGB6alKdsZAd6QzLFOaAQY1c4jc+inAyMP/GNGcJe5nW2D9bW75hNYT+cGAFvamtC2wah2vpW8MIKpNxy2wXrv3GbecNgG75hTkjffMOr+O5TcMIKR1+8XIzh2oZ1tgRclKz6BUdfvp+SUEYx6YHctefUJnCOK1gXrXwf3QOCUEayxTZ/AqHZ+ltwxglETOgPVpQUnjOBlyZJLE7ouGLV//pCcM4JR7XyhKr6DhQY7c2CwAZ42h36nrt864H3JJOh/6jGCUU8oH0zowJGL7cwI7jGC1yXzLk7oqmDU/Ve/jnTJCEa185nknREcu9rOVcCzkk1XJ3QVcFvh3t5LGMGodtZPN54YwR2X2/m/4EDhfhJNGcFbZmg5Df4WYAAgNVhzBbE+eAAAAABJRU5ErkJggg==");
+          /*
+          background-image: url(/bundles/app/css/images/ribbon.png);
+          */
+          background-repeat: repeat-x;
+          background-size: 5px 5px;
+          background-color: #fcdd32; }
+          [md-theme='sodimac-dark'] ion-side-menus.layouts.public ion-side-menu ion-footer-bar > div {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -moz-align-items: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%; }
+            [md-theme='sodimac-dark'] ion-side-menus.layouts.public ion-side-menu ion-footer-bar > div > img {
+              height: 45%; }
+
+/*# sourceMappingURL=layouts.css.map */
